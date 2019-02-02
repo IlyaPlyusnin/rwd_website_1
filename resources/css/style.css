@@ -22,12 +22,6 @@ body {
   width: 100%;
 }
 
-.row {
-  max-width: 1140px;
-  margin: 0 auto;
-  background-color: blue;
-}
-
 /* ---------------------------------- */
 /* Buttons */
 /* ---------------------------------- */
@@ -574,7 +568,7 @@ textarea {
 .copyright {
   margin-top: 10px;
   font-size: 140%;
-  padding-bottom: 30px;
+  padding: 0 5px 30px;
 }
 
 .grid-nav-container {
@@ -844,7 +838,8 @@ textarea {
     margin: 0 auto;
   }
   img.iphone {
-    height: 440px;
+    width: 300px;
+    height: auto;
   }
 
   .btn-submit {
