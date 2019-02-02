@@ -17,6 +17,11 @@ html {
   overflow-x: hidden;
 }
 
+html,
+body {
+  width: 100%;
+}
+
 .row {
   max-width: 1140px;
   margin: 0 auto;
